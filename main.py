@@ -143,9 +143,9 @@ def show_chart(df: DataFrame, title: str = "") -> None:
 
 
 async def main():
-    TICKER_LIST = ["UNI", "SUSHI", "BAL", "LRC", "BNT", "IDEX"]
+    TICKER_LIST = ["AAVE", "LINK", "ZRX", "WBTC", "ETH"]
     START_DATE = "2021-01-01"
-    END_DATE = "2021-04-19"
+    END_DATE = "2022-01-29"
     # USD deposit
     DEPOSIT = 1000
 
